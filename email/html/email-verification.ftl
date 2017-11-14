@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title></title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+  <style type="text/css">
+		html,body{
+			margin:0;
+			padding:0;
+			height:100% !important;
+			width:100% !important;
+		}
+		*{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		table,td{
+			mso-table-lspace:0;
+			mso-table-rspace:0;
+		}
+		table{
+			border-spacing:0 !important;
+		}
+		.ExternalClass,.ExternalClass *{
+			line-height:100%;
+		}
+		table{
+			border-collapse:collapse;
+			margin:0 auto;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		.yshortcuts a{
+			border-bottom:none !important;
+		}
+		.mobile-link--footer a{
+			color:#666666 !important;
+		}
+		img{
+			border:0 !important;
+			outline:none !important;
+			text-decoration:none !important;
+		}
+	@media only screen and (min-width: 601px){
+		.email-container{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 600px){
+		.email-container{
+			width:100% !important;
+			max-width:none !important;
+		}
+         /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }x
+}</style></head>
+  <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#f4f4f4" style="margin:0; padding:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#f4f4f4" style="height:auto;border-collapse:collapse;">
+      <tr>
+        <td>
+          <!-- Visually Hidden Preheader Text : BEGIN -->
+          <div style="display:none;font-size:1px;color:#222222;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">
+            Por favor, <strong>hacé click</strong> en el siguiente enlace para acceder a confirmar tu email ...
+          </div>
+          <!-- Visually Hidden Preheader Text : END -->
+          <!-- Outlook and Lotus Notes don't support max-width but are always on desktop, so we can enforce a wide, fixed width view. -->
+          <!-- Beginning of Outlook-specific wrapper : BEGIN -->
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <![endif]-->
+          <!-- Beginning of Outlook-specific wrapper : END -->
+          <!-- Email wrapper : BEGIN -->
+          <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="max-width:600px;margin:auto;" class="email-container">
+            <tr>
+              <td>
+                <!-- LINK A HTML DIRECTO -->
+                  <p style="font-family: sans-serif; font-size: 11px; color:#999999; font-weight: normal;text-align:center; padding-top:5px; padding-bottom:2px;">Si no ves correctamente este correo hacé click <a href="#" target="_blank" style="color:#5BC500;">aquí</a></p>
+                  
+                <!-- Logo + Links : BEGIN -->
+                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                  <tr>
+                    <td valign="middle" style="padding:10px 10px;text-align:left;" width="150">
+                      <img src="https://i.imgur.com/pyI2AZ6.png" alt="Tienda Viajes Movistar" width="150" height="50" border="0" align="left">
+                    </td>
+                    <td valign="middle" style="padding:10px 18px 10px 0px;text-align:right;line-height:1.3;font-family:sans-serif;font-size:16px;color:#5ac7eb;">
+                   
+                    </td>
+                  </tr>
+                </table>
+                <!-- Logo + Links : END -->
+                <!-- Main Email Body : BEGIN -->
+                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                  <!-- Hero Image, Flush : BEGIN -->
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <img src="https://i.imgur.com/oPxTTxt.png" aria-hidden="true" width="600" height="" alt="Cambio de Contraseña" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;" class="g-img">
+                    </td>
+                </tr>   
+                  <!-- Hero Image, Flush : END -->       
+                <!-- Full Width, Fluid Column : BEGIN -->
+                  <tr>
+                    <td bgcolor="#ffffff" style="padding: 30px 40px 20px; font-family: sans-serif; font-size: 16px; line-height: 20px; color: #555555; text-align: center;">
+                        <p style="margin: 0;">Por favor, <strong>hacé click</strong> en el siguiente enlace para acceder a confirmar tu email y luego seleccionar tu categoría de suscripción</p>
+                    </td>
+                  </tr>
+                  <tr>
+                  	<td bgcolor="#ffffff" style="padding: 30px 40px 20px; font-family: sans-serif; font-size: 16px; line-height: 20px; color: #555555; text-align: center;">
+                    	<p style="margin: 0;">${msg("emailVerificationBodyHtml",link, linkExpiration, realmName)}</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#ffffff" style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                        <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto">
+                            <tr>
+                                <td style="border-radius: 3px; background: #5BC500; text-align: center;" class="button-td">
+                                    <a href="${link}" style="background: #5BC500; border: 15px solid #5BC500; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ffffff;">CONFIRMAR EMAIL</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- Button : END -->
+                    </td>
+                  </tr>      
+                  <!-- Data Table : END -->
+                </table>
+                <!-- Main Email Body : END -->
+              </td>
+            </tr>
+            <!-- Footer : BEGIN -->
+            <tr>
+              <td style="text-align:center;padding:4% 0;font-family:sans-serif;font-size:11px;line-height:1.2;color:#bbb;">
+                 <img src="https://i.imgur.com/kIFLxJV.png" alt="Tienda Viajes Movistar" width="116" height="41" border="0" align="left"> <span class="mobile-link--footer">Operador responsable Movi Viajes. <span class="mobile-link--footer">Legajo Nro.13586 - EVT Disp. 713/08 </span>- <br/>Compromiso Tienda Viajes Movistar</span>
+                <br>
+                </td>
+              </tr>
+              <!-- Footer : END -->
+            </table>
+            <!-- Email wrapper : END -->
+            <!-- End of Outlook-specific wrapper : BEGIN -->
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+            <!-- End of Outlook-specific wrapper : END -->
+          </td>
+        </tr>
+      </table>
+    </body>
+</html>
