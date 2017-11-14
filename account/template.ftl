@@ -91,8 +91,6 @@
                     ${message.summary}
                 </div>
             </#if>
-
-            
         </div>
     </div>
 	<#if properties.scripts?has_content>

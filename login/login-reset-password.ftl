@@ -9,7 +9,7 @@
     	<div id="register" class="p-8">
 		    <div class="form-wrapper md-elevation-8 p-8">
 		        <div class="logo bg-secondary">
-		            <span>Q</span>
+		            <span>QD</span>
 		        </div>
 		        <div class="title mt-4 mb-8">${msg("emailInstruction")}</div>
 			    <form id="kc-reset-password-form" action="${url.loginAction}" method="post">

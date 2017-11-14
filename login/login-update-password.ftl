@@ -5,38 +5,28 @@
     <#elseif section = "header">
         ${msg("updatePasswordTitle")}
     <#elseif section = "form">
-        <form id="kc-passwd-update-form" class="${properties.kcFormClass!}" action="${url.loginAction}" method="post">
-            <input type="text" readonly value="this is not a login form" style="display: none;">
-            <input type="password" readonly value="this is not a login form" style="display: none;">
-
-            <div class="${properties.kcFormGroupClass!}">
-                <div class="${properties.kcLabelWrapperClass!}">
-                    <label for="password-new" class="${properties.kcLabelClass!}">${msg("passwordNew")}</label>
-                </div>
-                <div class="${properties.kcInputWrapperClass!}">
-                    <input type="password" id="password-new" name="password-new" class="${properties.kcInputClass!}" autofocus autocomplete="off" />
-                </div>
-            </div>
-
-            <div class="${properties.kcFormGroupClass!}">
-                <div class="${properties.kcLabelWrapperClass!}">
-                    <label for="password-confirm" class="${properties.kcLabelClass!}">${msg("passwordConfirm")}</label>
-                </div>
-                <div class="${properties.kcInputWrapperClass!}">
-                    <input type="password" id="password-confirm" name="password-confirm" class="${properties.kcInputClass!}" autocomplete="off" />
-                </div>
-            </div>
-
-            <div class="${properties.kcFormGroupClass!}">
-                <div id="kc-form-options" class="${properties.kcFormOptionsClass!}">
-                    <div class="${properties.kcFormOptionsWrapperClass!}">
-                    </div>
-                </div>
-
-                <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
-                    <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doSubmit")}"/>
-                </div>
-            </div>
-        </form>
+    <div class="content">
+    	<div id="register" class="p-8">
+		    <div class="form-wrapper md-elevation-8 p-8">
+		        <div class="logo bg-secondary">
+		            <span>QD</span>
+		        </div>
+		        <div class="title mt-4 mb-8">Reset your password</div>
+		        <form id="kc-passwd-update-form" action="${url.loginAction}" method="post">
+	            	<div class="form-group mb-4">
+	            		<input type="password" id="password-new" class="form-control" placeholder=${msg("passwordNew")} name="password-new" autofocus autocomplete="off" />
+				        <label for="password-new">${msg("passwordNew")}</label>
+		            </div>
+		            <div class="form-group mb-4">
+		            	<input type="password" id="password-confirm" class="form-control" name="password-confirm" autocomplete="off" />
+		                <label for="password-confirm">${msg("passwordConfirm")}</label>    
+		            </div>
+	            	<div class="form-group mb-4">
+		                <button class="submit-button btn btn-block btn-secondary mt-8 mb-4 mx-auto fuse-ripple-ready" aria-label=${msg("doSubmit")}>${msg("doSubmit")}</button>
+	            	</div>
+				</form>
+		    </div>    
+		</div>
+	</div>
     </#if>
 </@layout.registrationLayout>
